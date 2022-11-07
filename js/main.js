@@ -14,3 +14,19 @@ window.onscroll = function () {
     }
     prevScrollpos = currentScrollPos;
 };
+
+const swiper = new Swiper('.reviews__swiper--wrapper', {
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    navigation: {
+        nextEl: '.reviews__swiper-next',
+        prevEl: '.reviews__swiper-prev',
+    },
+
+    spaceBetween: 20,
+});

@@ -171,6 +171,7 @@ button {
     color: rgba(38, 50, 56, 0.36);
     width: 100%;
     max-width: 425px;
+    appearance: none;
 }
 
 .title {
@@ -424,8 +425,90 @@ button {
     }
 
     &__main--title {
-        margin-bottom: 99px;
+        // margin-bottom: 99px;
     }
+
+    &__swiper--wrapper {
+        width: 100%;
+        max-width: 1500px;
+    }
+}
+
+.swiper-slide {
+    padding: 65px 0 10px;
+}
+
+.swiper-slide__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(128, 133, 250, 0.25);
+    border-radius: 40px;
+    min-height: 270px;
+    padding: 0 45px;
+
+    p {
+        font-size: 28px;
+        line-height: 115.5%;
+        max-width: 1350px;
+    }
+}
+
+.decor {
+    left: 0;
+    top: -50%;
+    transform: translateY(50%);
+}
+
+.quotes {
+    right: 28px;
+    top: 20px;
+}
+
+.quotes-rotate {
+    left: 28px;
+    bottom: 20px;
+    transform: rotate(180deg) scale(-1, 1);
+}
+
+.name {
+    left: 135px;
+    top: -8%;
+    font-size: 18px;
+    line-height: 115.5%;
+    padding: 10px 13px;
+    min-width: 210px;
+    border-radius: 10px;
+}
+
+.reviews__swiper--pagination {
+    position: relative !important;
+    bottom: auto !important;
+    margin-top: 10px;
+
+    .swiper-pagination-bullet {
+        background-color: #a7a7a7;
+        width: 17px;
+        height: 17px;
+        margin: 0 5px;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #02CF8C;
+    }
+}
+
+.reviews__swiper--arrow {
+    top: 170px;
+}
+
+.reviews__swiper-prev {
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.reviews__swiper-next {
+    right: 0;
 }
 
 // form
@@ -440,5 +523,24 @@ button {
     &__title {
         font-size: 40px;
         line-height: 115.5%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+}
+
+// questions
+
+.questions {
+    padding: 80px 0 110px;
+
+    &__form {
+        margin: 0 auto 160px;
+
+        &--title {
+            font-size: 40px;
+            line-height: 115.5%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
     }
 }
