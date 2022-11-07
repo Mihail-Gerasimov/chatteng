@@ -32,11 +32,12 @@
 <body>
     <nav class="nav bg-violet">
         <div class="container">
-            <div class="nav__main d-flex justify-content-between align-items-center">
+            <div
+                class="nav__main d-flex justify-content-center justify-content-lg-between align-items-center position-relative">
 
                 <img class="logo" src="./img/nav/logo.svg" alt="">
 
-                <ul class="d-flex">
+                <ul class="d-none d-lg-flex">
                     <li><a class="fw700 text-uppercase white" href="#">курсы</a></li>
                     <li><a class="fw700 text-uppercase white" href="#">что тебя ждёт?</a></li>
                     <li><a class="fw700 text-uppercase white" href="#">о преподавателях</a></li>
@@ -45,6 +46,25 @@
                     <li><a class="fw700 text-uppercase white" href="#">отзывы</a></li>
                 </ul>
 
+                <div class="nav__main--burger position-absolute d-flex d-lg-none justify-content-between flex-column">
+                    <span class=""></span>
+                    <span class=""></span>
+                    <span class=""></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="nav__menu position-absolute bg-violet">
+            <div class="nav__menu--wrapper position-relative">
+                <img class="close position-absolute" src="./img/1-nav/close.svg" alt="">
+                <ul class="">
+                    <li><a class="fw500 mb-5 text-uppercase white" href="#">курсы</a></li>
+                    <li><a class="fw500 mb-5 text-uppercase white" href="#">что тебя ждёт?</a></li>
+                    <li><a class="fw500 mb-5 text-uppercase white" href="#">о преподавателях</a></li>
+                    <li><a class="fw500 mb-5 text-uppercase white" href="#">программа</a></li>
+                    <li><a class="fw500 mb-5 text-uppercase white" href="#">цены</a></li>
+                    <li><a class="fw500 text-uppercase white" href="#">отзывы</a></li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -91,9 +111,9 @@
                 и получите <span class="violet">50% скидку</span> на курс!</h3>
 
             <div class="d-flex justify-content-around flex-wrap">
-                <input type="text" placeholder="Ваше имя" class="input">
+                <input type="text" placeholder="Ваше имя" class="input reviews__input">
 
-                <input type="text" placeholder="Номер телефона" class="input">
+                <input type="text" placeholder="Номер телефона" class="input reviews__input">
 
                 <button class="btn reviews__btn">Оставить заявку</button>
             </div>

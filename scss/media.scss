@@ -171,9 +171,28 @@
     .form__title {
         font-size: 26px;
     }
+
+    .reviews__input {
+        max-width: 350px;
+        padding: 20px 0 20px 20px;
+        font-size: 18px;
+    }
+
+    .reviews__btn {
+        padding: 20px 0 20px 20px;
+        font-size: 18px;
+    }
 }
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+    .nav .logo {
+        max-width: 145px;
+    }
+
+    .nav {
+        padding: 12px 0;
+    }
+}
 
 @media (max-width: 767px) {}
 
