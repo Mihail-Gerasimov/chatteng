@@ -90,6 +90,14 @@
         box-shadow: 4px 4px 30px 2px #8085fa;
     }
 
+    .questions__form {
+        max-width: 1370px;
+    }
+
+    .questions__btn {
+        margin-top: 20px;
+    }
+
 }
 
 @media (max-width: 1490px) {
@@ -144,6 +152,14 @@
 
     .individual__main--description {
         max-width: 615px;
+    }
+
+    .questions__form--title {
+        font-size: 35px;
+    }
+
+    .questions__form {
+        max-width: 1145px;
     }
 }
 
@@ -239,6 +255,18 @@
 
     .individual__main--yellow img {
         bottom: -13px;
+    }
+
+    .questions__btn {
+        margin-top: 0;
+    }
+
+    .questions__input {
+        margin-bottom: 20px;
+    }
+
+    .questions__form {
+        max-width: 910px;
     }
 }
 
@@ -342,6 +370,22 @@
         max-width: 50px;
         top: -18px;
     }
+
+    .questions {
+        padding: 30px 0 65px;
+    }
+
+    .questions__form {
+        margin: 0 auto 90px;
+    }
+
+    .questions__form--title {
+        font-size: 31px;
+    }
+
+    .questions__form {
+        max-width: 740px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -414,6 +458,34 @@
 
     .individual {
         padding: 60px 0 250px;
+    }
+
+    .questions__form {
+        margin: 0 auto 75px;
+        padding: 30px 20px 25px;
+        box-shadow: 0px 4px 5px 3px rgba(0, 0, 0, 0.15);
+        max-width: 575px;
+
+    }
+
+    .questions__input {
+        max-width: 100%;
+        margin-bottom: 15px;
+        box-shadow: 0px 4px 5px 3px rgba(0, 0, 0, 0.15);
+        padding: 18px 0 18px 15px;
+        font-size: 13px;
+    }
+
+    .questions__form--title {
+        font-size: 30px;
+        max-width: 500px;
+    }
+
+    .questions__btn {
+        padding: 18px 0;
+        max-width: 100%;
+        font-size: 15px;
+        font-weight: 500 !important;
     }
 }
 
@@ -547,5 +619,9 @@
     .individual__main--description {
         font-size: 18px;
         line-height: 22px;
+    }
+
+    .questions__form--title {
+        font-size: 18px;
     }
 }
