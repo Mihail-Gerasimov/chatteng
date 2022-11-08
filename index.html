@@ -19,8 +19,8 @@
         rel="stylesheet">
 
     <!-- font-family: 'Montserrat', sans-serif; -->
-
     <!-- fonts -->
+
 
     <!-- styles -->
     <link rel="stylesheet" href="./css/main.min.css">
@@ -31,10 +31,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <!-- swiper -->
 
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- aos -->
+
 
 </head>
 
 <body>
+    <!-- thanks -->
+    <!-- <div class="thanks position-fixed">
+        <p class="thanks__title fw700">Спасибо за Вашу заявку!</p>
+        <p class="thanks__description fw700">Мы свяжемся с Вами <br> в ближайшее время!</p>
+    </div> -->
+    <!-- thanks -->
+
     <nav class="nav bg-violet">
         <div class="container">
             <div
@@ -288,18 +299,22 @@
                     поможет чувствовать
                     себя уверенней и смелее</p>
 
-                <img class="individual-pic mx-auto d-none d-sm-block" src="./img/individual/individual-pic.png" alt="">
+                <img data-aos="fade-down-right" class="individual-pic mx-auto d-none d-sm-block"
+                    src="./img/individual/individual-pic.png" alt="">
 
-                <img class="mx-auto d-block d-sm-none" src="./img/individual/individual-pic-mob.png" alt="">
+                <img data-aos="fade-down-right" class="mx-auto d-block d-sm-none"
+                    src="./img/individual/individual-pic-mob.png" alt="">
 
-                <div class="individual__main--yellow position-absolute d-flex align-items-center">
+                <div data-aos="zoom-out-down"
+                    class="individual__main--yellow position-absolute d-flex align-items-center">
                     <img class="position-absolute" src="./img/individual/yellow-arr.svg" alt="arrow">
 
                     <span class="fw700 white text-center">На лекциях в Discord и платформе <br>
                         Stepik есть все виды упражнений</span>
                 </div>
 
-                <div class="individual__main--pink bg-violet position-absolute d-flex align-items-center">
+                <div data-aos="zoom-out-up"
+                    class="individual__main--pink bg-violet position-absolute d-flex align-items-center">
                     <img class="position-absolute" src="./img/individual/pink-arr.png" alt="arrow">
 
                     <span class="fw700 white text-center">На наших занятиях вы превратите <br> свои слабые стороны в
@@ -391,7 +406,64 @@
         </div>
     </section>
 
-    <section class="start"></section>
+    <section class="start">
+        <div class="container">
+            <h2 class="title">НАЧНИТЕ ОБЩАТЬСЯ <br>
+                <span>НА АНГЛИЙСКОМ</span> УЖЕ СЕЙЧАС
+            </h2>
+
+            <div class="start__main d-flex justify-content-between flex-column flex-lg-row">
+
+                <div class="card-wrapper mb-4 mb-lg-0 me-0 me-lg-3">
+                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                        class="start__main--card start__main--card-violet d-flex justify-content-between align-items-center mb-4 flex-column flex-lg-row">
+                        <div>
+                            <h3 class="start__main--card-title mb-4 fw700 white">Помощь в преодолении <br> языкового
+                                барьера</h3>
+                            <p class="fw700 white">Простое объяснение грамматики,
+                                обучение основам письма.
+                                Услуга доступна для подростков
+                                и взрослых.
+                                Занятия проходят
+                                в режиме онлайн.
+                            </p>
+                        </div>
+                        <img class="start__main--card-violet_pic" src="./img/start/start-1.png" alt="">
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                        class="start__main--card start__main--card-yellow d-flex justify-content-between align-items-center flex-column-reverse flex-lg-row">
+                        <img class="start__main--card-yellow-pic" src="./img/start/start-2.png" alt="">
+
+                        <div>
+                            <h3 class="start__main--card-title mb-4 fw700 white">Лекции и записи</h3>
+                            <p class="fw700 white">Даже если вы пропустили занятие, ничего страшного. Вам всегда будут
+                                доступны видеозаписи в нашем специальном чате.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    class="start__main--card start__main--card-green d-flex flex-column align-items-center justify-content-between">
+                    <div>
+                        <h3 class="start__main--card-title mb-4 fw700 white text-center">Групповые занятия <br>
+                            для взрослых</h3>
+                        <p class="fw700 white text-center mx-auto">Программа рассчитана на 24 занятия, занятия
+                            проводятся на
+                            английском языке. Цель занятий: преодолеть языковой барьер, овладеть азами грамматики и
+                            словарными единицами для выражения своих мыслей в устной и письменной форме на уровне А1-А2.
+                            Занятия проходят
+                            в режиме онлайн.
+
+                        </p>
+                    </div>
+                    <img class="start__main--card-green_pic" src="./img/start/start-3.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <section class="cource"></section>
 
@@ -429,6 +501,12 @@
 
     <!-- swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <script src="./js/main.js"></script>
 

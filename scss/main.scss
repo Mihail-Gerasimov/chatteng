@@ -753,6 +753,49 @@ button {
     }
 }
 
+.start {
+    padding-bottom: 160px;
+
+    &__main--card {
+        border-radius: 20px;
+        overflow: hidden;
+
+        &-title {
+            font-size: 40px;
+            line-height: 115.5%;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 115.5%;
+            max-width: 550px;
+        }
+    }
+
+    &__main--card-violet {
+        background-color: #8085FA;
+        padding-left: 50px;
+    }
+
+    &__main--card-yellow {
+        background-color: #FFA726;
+        padding-right: 55px;
+    }
+
+    &__main--card-green {
+        background-color: #02CF8C;
+        max-width: 625px;
+        padding: 27px 15px 0;
+        width: 100%;
+    }
+}
+
+.card-wrapper {
+    max-width: 1028px;
+    width: 100%;
+}
+
 // questions
 
 .questions {
@@ -768,4 +811,37 @@ button {
             margin: 0 auto;
         }
     }
+}
+
+// thanks
+.thanks {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 2px #8085fa;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 315px;
+    min-height: 360px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+
+    &__title {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__description {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+
 }
