@@ -590,6 +590,29 @@ button {
         border-radius: 20px;
         overflow: hidden;
 
+        &:hover {
+            animation-name: list;
+            animation-duration: .3s;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes list {
+            0% {
+                transform: scale(1.02);
+                transform: rotate(-1.5deg);
+            }
+
+            50% {
+                transform: rotate(1.5deg);
+                transform: scale(1.02);
+            }
+
+            100% {
+                transform: rotate(1deg);
+                transform: rotate(0deg);
+            }
+        }
+
         li {
             padding: 30px 18px;
             font-weight: 700;
@@ -616,6 +639,12 @@ button {
     border: 1px solid #8085FA;
     box-shadow: 4px 4px 40px 2px rgba(128, 133, 250, 0.25);
     margin-bottom: 27px;
+    transition: .2s;
+
+    &:hover {
+        background-color: #d0d2f2;
+        transition: .2s;
+    }
 
     li {
         border-bottom: 1px solid #8085FA;
@@ -633,6 +662,12 @@ button {
 .list-green {
     border: 1px solid #02CF8C;
     box-shadow: 4px 4px 40px 2px rgba(2, 207, 140, 0.25);
+    transition: .2s;
+
+    &:hover {
+        background-color: #a7f9de;
+        transition: .2s;
+    }
 
     li {
         border-bottom: 1px solid #02CF8C;
@@ -651,6 +686,12 @@ button {
     border: 1px solid #FFA726;
     box-shadow: 4px 4px 40px 2px rgba(255, 167, 38, 0.25);
     margin-bottom: 27px;
+    transition: .2s;
+
+    &:hover {
+        background-color: #f9d7a3;
+        transition: .2s;
+    }
 
     li {
         border-bottom: 1px solid #FFA726;
@@ -668,6 +709,12 @@ button {
 .list-red {
     border: 1px solid #D32F27;
     box-shadow: 4px 4px 40px 2px rgba(211, 47, 39, 0.25);
+    transition: .2s;
+
+    &:hover {
+        background-color: #fc918b;
+        transition: .2s;
+    }
 
     li {
         border-bottom: 1px solid #D32F27;
@@ -686,6 +733,12 @@ button {
     border: 1px solid #D62AA6;
     box-shadow: 4px 4px 40px 2px rgba(214, 42, 166, 0.25);
     margin-bottom: 27px;
+    transition: .2s;
+
+    &:hover {
+        background-color: #fca4e3;
+        transition: .2s;
+    }
 
     li {
         border-bottom: 1px solid #D62AA6;

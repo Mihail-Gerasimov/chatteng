@@ -49,6 +49,16 @@
     }
 }
 
+@media (max-width: 1650px) {
+    .program__main--line-list {
+        width: 500px;
+    }
+
+    .program__main--line img {
+        max-width: 500px;
+    }
+}
+
 @media (max-width: 1580px) {
     .reviews__btn {
         margin-top: 20px;
@@ -98,6 +108,16 @@
         margin-top: 20px;
     }
 
+}
+
+@media (max-width: 1530px) {
+    .program__main--line-list {
+        width: 460px;
+    }
+
+    .program__main--line img {
+        max-width: 460px;
+    }
 }
 
 @media (max-width: 1490px) {
@@ -160,6 +180,24 @@
 
     .questions__form {
         max-width: 1145px;
+    }
+
+    .program__main--line-list {
+        width: 380px;
+    }
+
+    .program__main--line-list li:first-child {
+        font-size: 30px;
+        height: 140px;
+    }
+
+    .program__main--line-list li {
+        padding: 25px 18px;
+        font-size: 17px;
+    }
+
+    .program__main--line img {
+        max-width: 380px;
     }
 }
 
@@ -267,6 +305,24 @@
 
     .questions__form {
         max-width: 910px;
+    }
+
+    .program__main--line-list {
+        width: 315px;
+    }
+
+    .program__main--line-list li:first-child {
+        font-size: 25px;
+        height: 115px;
+    }
+
+    .program__main--line-list li {
+        padding: 20px 13px;
+        font-size: 14px;
+    }
+
+    .program__main--line img {
+        max-width: 315px;
     }
 }
 
@@ -386,6 +442,28 @@
     .questions__form {
         max-width: 740px;
     }
+
+    .program__main--line-list {
+        width: 235px;
+    }
+
+    .program__main--line img {
+        max-width: 235px;
+    }
+
+    .program__main--line-list li:first-child {
+        font-size: 20px;
+        height: 90px;
+    }
+
+    .program__main--line-list li {
+        padding: 15px 10px;
+        font-size: 12px;
+    }
+
+    .program {
+        padding: 100px 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -486,6 +564,35 @@
         max-width: 100%;
         font-size: 15px;
         font-weight: 500 !important;
+    }
+
+    .program__main--line-list {
+        margin-bottom: 20px !important;
+    }
+
+    .program {
+        padding: 77px 0;
+    }
+
+    .list-red {
+        margin-bottom: 0px !important;
+    }
+
+    .program__main--line-list {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .program__main--line-list li:first-child {
+        font-size: 18px;
+        height: 66px;
+    }
+
+    .program__main--line-list li {
+        text-align: center;
+        padding: 20px 10px;
+        font-size: 12px;
     }
 }
 
