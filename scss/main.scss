@@ -584,6 +584,120 @@ button {
 
 .program {
     padding: 160px 0;
+
+    &__main--line-list {
+        width: 540px;
+        border-radius: 20px;
+        overflow: hidden;
+
+        li {
+            padding: 30px 18px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 115.5%;
+
+            &:first-child {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 115.5%;
+                text-align: center;
+                color: #FFFFFF;
+                height: 197px;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.list-violet {
+    border: 1px solid #8085FA;
+    box-shadow: 4px 4px 40px 2px rgba(128, 133, 250, 0.25);
+    margin-bottom: 27px;
+
+    li {
+        border-bottom: 1px solid #8085FA;
+
+        &:first-child {
+            background-color: #8085FA;
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.list-green {
+    border: 1px solid #02CF8C;
+    box-shadow: 4px 4px 40px 2px rgba(2, 207, 140, 0.25);
+
+    li {
+        border-bottom: 1px solid #02CF8C;
+
+        &:first-child {
+            background-color: #02CF8C;
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.list-yellow {
+    border: 1px solid #FFA726;
+    box-shadow: 4px 4px 40px 2px rgba(255, 167, 38, 0.25);
+    margin-bottom: 27px;
+
+    li {
+        border-bottom: 1px solid #FFA726;
+
+        &:first-child {
+            background-color: #FFA726;
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.list-red {
+    border: 1px solid #D32F27;
+    box-shadow: 4px 4px 40px 2px rgba(211, 47, 39, 0.25);
+
+    li {
+        border-bottom: 1px solid #D32F27;
+
+        &:first-child {
+            background-color: #D32F27;
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.list-pink {
+    border: 1px solid #D62AA6;
+    box-shadow: 4px 4px 40px 2px rgba(214, 42, 166, 0.25);
+    margin-bottom: 27px;
+
+    li {
+        border-bottom: 1px solid #D62AA6;
+
+        &:first-child {
+            background-color: #D62AA6;
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
 }
 
 // questions
