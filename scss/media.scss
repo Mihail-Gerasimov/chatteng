@@ -228,6 +228,19 @@
     .start__main--card-green_pic {
         max-width: 335px;
     }
+
+    .cource__main--card {
+        max-width: 580px;
+        min-height: 820px;
+        margin-right: 0px !important;
+    }
+
+    .cource__main--card-description {
+        margin-bottom: 30px;
+        font-size: 23px;
+        line-height: 25px;
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -387,6 +400,39 @@
 
     .start__main--card-yellow-pic {
         max-width: 190px;
+    }
+
+    .cource__main--card {
+        max-width: 470px;
+        min-height: 640px;
+    }
+
+    .cource__main--card-title {
+        font-size: 28px;
+    }
+
+    .cource__main--card-summa {
+        font-size: 30px;
+    }
+
+    .cource__main--card-sale {
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+
+    .cource__main--card-description {
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .cource__main--card-link {
+        font-size: 15px;
+        max-width: 350px;
+    }
+
+    .cource {
+        padding: 75px 0 90px;
     }
 }
 
@@ -552,6 +598,31 @@
         max-width: 600px;
         margin: 0 auto;
     }
+
+    .cource__main--card {
+        padding: 30px 5px 0;
+        max-width: 355px;
+        min-height: 590px;
+    }
+
+    .cource__main--card-title {
+        font-size: 24px;
+    }
+
+    .cource__main--card-description {
+        font-size: 16px;
+        line-height: 16px;
+        max-width: 285px;
+        margin: 0 auto 30px;
+    }
+
+    .cource__main--card-linkTwo {
+        bottom: 28px !important;
+    }
+
+    .cource {
+        padding: 45px 0 70px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -685,6 +756,10 @@
 
     .start {
         padding-bottom: 65px;
+    }
+
+    .cource {
+        padding: 30px 0;
     }
 }
 
@@ -832,5 +907,43 @@
     .start__main--card-yellow-pic,
     .start__main--card-green_pic {
         max-width: 230px;
+    }
+
+    .cource__main--card {
+        min-height: 445px;
+    }
+
+    .cource__main--card-title {
+        font-size: 19px;
+    }
+
+    .cource__main--card-summa {
+        font-size: 30px;
+    }
+
+    .cource__main--card-summa::before {
+        width: 133px;
+    }
+
+    .cource__main--card-sale {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .cource__main--card-description {
+        font-size: 12px;
+        line-height: 12px;
+        max-width: 270px;
+        margin: 0 auto 15px;
+    }
+
+    .cource__main--card-link {
+        font-size: 10px;
+        max-width: 260px;
+        bottom: 15px;
+    }
+
+    .cource__main--card-linkTwo {
+        bottom: 15px !important;
     }
 }
