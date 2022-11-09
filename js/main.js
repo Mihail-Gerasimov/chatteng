@@ -30,3 +30,12 @@ const swiper = new Swiper('.reviews__swiper--wrapper', {
 
     spaceBetween: 20,
 });
+
+const questions = document.querySelectorAll('.questions__question-header');
+
+questions.forEach(question => {
+    question.addEventListener('click', () => {
+        question.nextSibling.nextSibling.classList.toggle('questions__question-content--active');
+        question.classList.toggle('questions__question-header--active');
+    });
+});

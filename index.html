@@ -54,12 +54,12 @@
                 <img class="logo" src="./img/nav/logo.svg" alt="">
 
                 <ul class="d-none d-lg-flex">
-                    <li><a class="fw700 text-uppercase white" href="#">курсы</a></li>
-                    <li><a class="fw700 text-uppercase white" href="#">что тебя ждёт?</a></li>
-                    <li><a class="fw700 text-uppercase white" href="#">о преподавателях</a></li>
-                    <li><a class="fw700 text-uppercase white" href="#">программа</a></li>
-                    <li><a class="fw700 text-uppercase white" href="#">цены</a></li>
-                    <li><a class="fw700 text-uppercase white" href="#">отзывы</a></li>
+                    <li><a class="fw700 text-uppercase white" href="#cource">курсы</a></li>
+                    <li><a class="fw700 text-uppercase white" href="#program">что тебя ждёт?</a></li>
+                    <li><a class="fw700 text-uppercase white" href="#start">о преподавателях</a></li>
+                    <li><a class="fw700 text-uppercase white" href="#program">программа</a></li>
+                    <li><a class="fw700 text-uppercase white" href="#cource">цены</a></li>
+                    <li><a class="fw700 text-uppercase white" href="#reviews">отзывы</a></li>
                 </ul>
 
                 <div class="nav__main--burger position-absolute d-flex d-lg-none justify-content-between flex-column">
@@ -73,12 +73,12 @@
         <div class="nav__menu position-absolute bg-violet">
             <div class="nav__menu--wrapper position-relative">
                 <ul class="">
-                    <li><a class="fw500 mb-5 text-uppercase white" href="#">курсы</a></li>
-                    <li><a class="fw500 mb-5 text-uppercase white" href="#">что тебя ждёт?</a></li>
-                    <li><a class="fw500 mb-5 text-uppercase white" href="#">о преподавателях</a></li>
-                    <li><a class="fw500 mb-5 text-uppercase white" href="#">программа</a></li>
-                    <li><a class="fw500 mb-5 text-uppercase white" href="#">цены</a></li>
-                    <li><a class="fw500 text-uppercase white" href="#">отзывы</a></li>
+                    <li><a class="fw500 mb-5 text-uppercase white" href="#cource">курсы</a></li>
+                    <li><a class="fw500 mb-5 text-uppercase white" href="#program">что тебя ждёт?</a></li>
+                    <li><a class="fw500 mb-5 text-uppercase white" href="#start">о преподавателях</a></li>
+                    <li><a class="fw500 mb-5 text-uppercase white" href="#program">программа</a></li>
+                    <li><a class="fw500 mb-5 text-uppercase white" href="#cource">цены</a></li>
+                    <li><a class="fw500 text-uppercase white" href="#reviews">отзывы</a></li>
                 </ul>
             </div>
         </div>
@@ -123,7 +123,7 @@
         </div>
     </header>
 
-    <section class="reviews">
+    <section id="reviews" class="reviews">
 
         <form class="form reviews__form" action="">
             <h3 class="form__title mb-4 mb-lg-5 text-center fw700">Оставьте заявку на курсы для начинающих
@@ -324,7 +324,7 @@
         </div>
     </section>
 
-    <section class="program">
+    <section id="program" class="program">
         <div class="container">
             <h2 class="title text-center">ПРОГРАММА <span>КУРСА</span></h2>
 
@@ -406,7 +406,7 @@
         </div>
     </section>
 
-    <section class="start">
+    <section id="start" class="start">
         <div class="container">
             <h2 class="title">НАЧНИТЕ ОБЩАТЬСЯ <br>
                 <span>НА АНГЛИЙСКОМ</span> УЖЕ СЕЙЧАС
@@ -465,7 +465,7 @@
         </div>
     </section>
 
-    <section class="cource bg-violet">
+    <section id="cource" class="cource bg-violet">
         <div class="container">
 
             <h2 class="title white text-center">СКОЛЬКО СТОИТ КУРС?</h2>
@@ -553,14 +553,136 @@
             </div>
         </form>
 
+
         <div class="container">
+            <h2 class="title">ВОПРОСЫ И <span>ОТВЕТЫ</span></h2>
 
-            <h2 class="title reviews__main--title">ВОПРОСЫ И <span>ОТВЕТЫ</span></h2>
+            <div
+                class="questions__main d-flex align-items-center justify-content-between position-relative flex-column-reverse flex-lg-row">
 
+                <img class="questions__main--pic" src="./img/questions/questions-pic.png" alt="">
+
+                <!-- <img class="skew position-absolute" src="./img/questions/skew.png" alt=""> -->
+
+                <div class="questions__accordion">
+                    <div class="questions__question">
+                        <div class="questions__question-header questions__question-header--active">Сколько длится
+                            один урок?</div>
+                        <div class="questions__question-content questions__question-content--active">1,5 часа</div>
+
+                        <div class="close"></div>
+                    </div>
+                    <div class="questions__question">
+                        <div class="questions__question-header">Кто проверяет домашние задания?
+                        </div>
+                        <div class="questions__question-content">Письменные домашние задания проверяет
+                            преподаватель, а вы получаете подробные комментарии по своей работе
+                            с разбором ошибок.
+
+                        </div>
+                        <div class="close"></div>
+                    </div>
+                    <div class="questions__question">
+                        <div class="questions__question-header">Есть ли у вас документы для налогового вычета
+                            за обучение?</div>
+                        <div class="questions__question-content">— Договор на обучение. Им выступает наше
+                            пользовательское соглашение со всеми приложениями
+                            к нему. <br>
+                            — Наша образовательная лицензия. <br>
+                            — Электронный чек, который придет на email, указанный при оплате
+                        </div>
+                        <div class="close"></div>
+
+                    </div>
+                    <div class="questions__question">
+                        <div class="questions__question-header">Будут ли записи занятий?</div>
+                        <div class="questions__question-content">Все занятия будут доступны и в записи тоже —
+                            сможешь посмотреть потом в любое время.
+                        </div>
+                        <div class="close"></div>
+
+                    </div>
+                    <div class="questions__question">
+                        <div class="questions__question-header">Где проходит обучение?</div>
+                        <div class="questions__question-content">Все необходимые материалы будут в твоем личном
+                            кабинете: расписание, записи занятий, конспекты, домашние задания, твоя статистика и
+                            многое другое.
+                            В вк у тебя будет общая беседа курса, общение
+                            с психологом и преподавателем.
+                            Онлайн-занятия проводятся в Discord.
+                        </div>
+                        <div class="close"></div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer></footer>
+    <footer class="footer bg-violet">
+        <div class="container">
+            <div class="footer__main d-flex justify-content-between align-items-center flex-column flex-lg-row">
+                <img class="mb-4 mb-lg-0 d-none d-md-block" src="./img/footer/logo.svg" alt="">
+
+                <div
+                    class="d-flex flex-column justify-content-center justify-content-lg-start text-center text-lg-start">
+                    <p class="footer__main--link fw500 white">Почта: anastasiya.dem0@gmail.com</p>
+                    <div class="footer__main--icon d-flex justify-content-center justify-content-lg-start mb-3">
+                        <a href="https://vk.com/anastasiya_englishtutor" target="_blank"><img src="./img/footer/vk.svg"
+                                alt="vk"></a>
+                        <a href="mailto:anastasiya.dem0@gmail.com" target="_blank"><img src="./img/footer/gmail.svg"
+                                alt="vk"></a>
+                        <a href="https://t.me/stepashkaeng" target="_blank"><img src="./img/footer/tg.svg" alt="vk"></a>
+                    </div>
+                    <p class="footer__main--link fw500 white mb-3">ИНН: 635007065675 <br>
+                        ИП: Степашкина Анастасия Андреевна</p>
+                    <button class="btn footer__main--btn bg-green py-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Политика
+                        Конфиденциальности</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- politic -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Политика
+                        Конфиденциальности</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fs-5">
+                    Настоящим в соответствии с Федеральным законом № 152-ФЗ «О персональных данных» от 27.07.2006 года
+                    Вы подтверждаете свое согласие на обработку компанией ИП Степашкина А.А. персональных данных: сбор,
+                    систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, передачу
+                    исключительно в целях продажи программного обеспечения на Ваше имя, как это описано ниже,
+                    блокирование, обезличивание, уничтожение. <br><br>
+
+                    ИП Степашкина А.А. гарантирует конфиденциальность получаемой информации. Обработка персональных
+                    данных осуществляется в целях эффективного исполнения заказов, договоров и иных обязательств,
+                    принятых компанией ИП Степашкина А.А. в качестве обязательных к исполнению.<br><br>
+
+                    Настоящее согласие распространяется на следующие Ваши персональные данные: фамилия, имя и отчество,
+                    адрес электронной почты, контактный телефон, платёжные реквизиты.<br><br>
+
+                    Срок действия согласия является неограниченным. Вы можете в любой момент отозвать настоящее
+                    согласие, направив письменное уведомления на электронный адрес: _____с пометкой «Отзыв согласия на
+                    обработку персональных данных».<br><br>
+
+                    Гарантирую, что представленная мной информация является полной, точной и достоверной, а также что
+                    при представлении информации не нарушаются действующее законодательство Российской Федерации,
+                    законные права и интересы третьих лиц. Вся представленная информация заполнена мною в отношении себя
+                    лично.<br><br>
+
+                    Настоящее согласие действует в течение всего периода хранения персональных данных, если иное не
+                    предусмотрено законодательством Российской Федерации.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- politic -->
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
